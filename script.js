@@ -25,20 +25,20 @@ var speeches = [
 ];
 document.getElementById('BtnDonate').addEventListener('click', function(){
 	"use strict";
-	console.log("There are " + speeches.length + " speeches on the page");
+	 console.log("There are " + speeches.length + " speeches on the page");
 });
 
 document.getElementById('BtnChurchill').addEventListener('click', function(){
   	"use strict";
-	console.log("This speech was written by " + theirFinestHour.name +" in " + theirFinestHour.year + ". It is " + theirFinestHour.bce + " that this year is B.C.E.");
+	 console.log("This speech was written by " + theirFinestHour.name +" in " + theirFinestHour.year + ". It is " + theirFinestHour.bce + " that this year is B.C.E.");
 });
 
 document.getElementById('BtnGhandi').addEventListener('click', function(){
-  "use strict";
-  console.log("This speech was written by " + quitIndia.name +" in " + quitIndia.year + ". It is " + quitIndia.bce + " that this year is B.C.E.");
+  	"use strict";
+  	 console.log("This speech was written by " + quitIndia.name +" in " + quitIndia.year + ". It is " + quitIndia.bce + " that this year is B.C.E.");
 });
 
 document.getElementById('BtnDemosthenes').addEventListener('click', function(){
  	"use strict";
-  console.log("This speech was written by " + demosthenes.name +" in " + demosthenes.year + ". It is " + demosthenes.bce + " that this year is B.C.E.");
+ 	 console.log("This speech was written by " + demosthenes.name +" in " + demosthenes.year + ". It is " + demosthenes.bce + " that this year is B.C.E.");
 });
